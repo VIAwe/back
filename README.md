@@ -72,8 +72,11 @@ User
 * zhangwei
 
 # url
-* [补丁列表](http://134.128.52.80:8283/confluence/dashboard.action)
+* [补丁列表](http://134.128.52.80:8283/confluence/pages/viewpage.action?pageId=65306664&focusedCommentId=65306667#comment-65306667)
 * [工时](http://172.17.11.182/cas/login?service=http%3A%2F%2F172.17.11.98%3A8080%2Fhome.jsp)
+* [禅道](http://134.128.52.80:8076/zentao/user-login-L3plbnRhby9wcm9qZWN0LXRhc2stMS5odG1s.html)
+  * zhangwei
+  * gxlu.123
 
 # IP
 * 134.128.52.120
@@ -154,8 +157,9 @@ jboss
 * Acc页卡输入框位置不对（选中radio和实际能输入的位置不同）
 * 展示的tab少了(暂时不管)
 
-
-
+# 地址管理
+* 删除没有刷新
+* 批量修改没有刷新
 
 
 楼宇库回退内容
@@ -167,17 +171,13 @@ jboss
 # WebActivity
 * 
 
+扫描标签查看设备增加基本属性和资产编码校验
+=================================================================
+# ResponseTCASServiceImpl
 
+86170069
 
-
-
-
-
-
-
-
-
-
+/SrmMobileAppFj/src/com/gxlu/fj/rm/service/configuration/link/MainModifyFiber.java 存在问题
 
 
 
