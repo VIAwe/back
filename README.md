@@ -1,88 +1,6 @@
-FJWFM
-=================================================================================================
-# TNS
-```
-FJWFM =
-  (DESCRIPTION =
-    (ADDRESS = (PROTOCOL = TCP)(HOST = 134.128.52.106)(PORT = 1521))
-    (CONNECT_DATA =
-      (SERVER = DEDICATED)
-      (SERVICE_NAME = fjwfm)
-    )
-  )
-```
-# om_oss/om_oss
-
-IM的FTTX-LITE
-=================================================================================================
-# TNS
-```
-(DESCRIPTION =     (ADDRESS_LIST =       (ADDRESS = (PROTOCOL = TCP)(HOST = 134.129.68.15)(PORT = 2015))     )     (CONNECT_DATA =       (SERVICE_NAME = zhzytestdb)     ) )
-```
-# fttx_im/gxlufttx_im
-# ftth_door/ftth_am
-* TNS
-```
-(DESCRIPTION =
-    (ADDRESS_LIST =
-      (ADDRESS=(PROTOCOL=TCP)(HOST = 134.129.68.197)(PORT = 1521))
-    )
-    (CONNECT_DATA =
-      (SERVICE_NAME = cmdb)
-    )
-)
-```
-
-197
-=================================================================================================
-# TNS
-```
-cmdb =
-(DESCRIPTION =
-    (ADDRESS_LIST =
-      (ADDRESS=(PROTOCOL=TCP)(HOST = 134.129.68.197)(PORT = 1521))
-    )
-    (CONNECT_DATA =
-      (SERVICE_NAME = cmdb)
-    )
-)	
-```
-# sd_fttx_im/gxlufttx_im  \\ 种子库
-# fttx_im/gxlufttx_im	  \\ 测试库 
 
 # 中文正则
 * ^((?!(\*|//)).)+[\u4e00-\u9fa5]
-
-User
-=================================================================================================
-# SOM
-* ssh -p 2200 gxluguokq@134.130.136.8
-* gxluSrm.123
-
-# [80](134.128.52.80)
-*  userName: sa
-* passWord: admin789
-
-# ccs
-* zhangwei03
-* gxluSrm.03
-
-# RTX
-* gxluzhangwg
-* zhangwei
-
-# url
-* [补丁列表](http://134.128.52.80:8283/confluence/pages/viewpage.action?pageId=65306664&focusedCommentId=65306667#comment-65306667)
-* [工时](http://172.17.11.182/cas/login?service=http%3A%2F%2F172.17.11.98%3A8080%2Fhome.jsp)
-* [禅道](http://134.128.52.80:8076/zentao/user-login-L3plbnRhby9wcm9qZWN0LXRhc2stMS5odG1s.html)
-  * zhangwei
-  * gxlu.123
-
-# IP
-* 134.128.52.120
-* 134.128.52.111
-* [DNS](134.128.34.50)
-
 
 PATH
 =================================================================================================
@@ -103,28 +21,6 @@ count = InstanceQueryEngine.count(pa);
 # 消息窗口
 * [layer](http://layer.layui.com/)
 * /SRMWeb/mmeappweb/easyui/views/include.js ddrivetip()
-
-# 通用查询
-```java
-var data = []
-
-var request_url = "commonSearch.html" + data
-var iframe = openIframeWin("", 1000, 600, request_url, "Search");
-iframe.onload = function() {
-    iframe.setParentObj(self);
-}
-
-function winReturnInfo(returnData) // returnData就是选中行的json
-{
-    if (null == returnData) {
-        returnData = "";
-
-    } else {
-        // returnData.name.Name
-    }
-}
-```
-# [参考](/SRMWeb/mmeappweb/easyui/casetool/ommonSearchQueryFiberCoreByLinkBundle.ftl)
 
 jboss
 ======================================================================
